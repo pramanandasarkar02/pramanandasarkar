@@ -1,5 +1,0 @@
-{
-    "title": "Linux Kernel Driver for Custom Sensor",
-    "description": "Wrote a kernel module in C to interface with a custom I2C temperature sensor.",
-    "tech": "C, Linux Kernel, I2C"
-  }
