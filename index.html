@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Your Name] - Backend Engineer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>[Your Name] - Backend & Systems Engineer</h1>
+  <p>Linux | Hardware Integration | Server-Side Development</p>
+
+  <div class="section">
+    <h2>Profile</h2>
+    <p>Seasoned backend engineer specializing in Linux-based systems, low-level hardware integration, and performant server-side solutions.</p>
+  </div>
+
+  <div class="section">
+    <h2>Skills</h2>
+    <pre id="skills">
+- Languages: C, Python, Bash, Rust
+- Systems: Linux (Debian, Arch), POSIX
+- Hardware: Embedded Systems, GPIO, I2C
+- Backend: REST APIs, RPC, RabbitMQ
+- Tools: Git, Docker, Nginx, GDB
+    </pre>
+  </div>
+
+  <div class="section">
+    <h2>Projects</h2>
+    <pre id="projects-list">Loading projects...</pre>
+  </div>
+
+  <div class="section">
+    <h2>Blog Posts</h2>
+    <pre id="blog-list">Loading blog posts...</pre>
+  </div>
+
+  <div class="section">
+    <h2>System Stats API</h2>
+    <button onclick="fetchStats()">Fetch Stats</button>
+    <pre id="api-output">Click to see system stats...</pre>
+  </div>
+
+  <div class="section">
+    <h2>Contact Me</h2>
+    <div id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button onclick="submitContact()">Send</button>
+    </div>
+    <pre id="contact-response">Status: Waiting...</pre>
+  </div>
+
+  <footer>
+    <p>Contact: [your.email@domain.com] | GitHub: [your-github]</p>
+  </footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

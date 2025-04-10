@@ -1,0 +1,6 @@
+{
+    "title": "Profiling Linux System Calls",
+    "date": "Apr 8, 2025",
+    "summary": "Used strace and perf to analyze syscall bottlenecks in a web server."
+  
+}
